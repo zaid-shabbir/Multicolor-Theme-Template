@@ -1,0 +1,15 @@
+{
+  "name": "mywork",
+  "version": "1.0.0",
+  "description": "A Simple Layout",
+  "main": "\\",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zaid S",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1"
+  }
+}

@@ -1,0 +1,86 @@
+@mixin theme ($theme, $color:'') {
+    @if $theme == 'light' {
+        --currentbg : #EBEBEB;
+        --currenttextcolor : #333333;
+        --bodybg : #FCFCFC;
+        --themecolor : #333333; 
+    }
+    @else {
+        --currentbg : #434343;
+        --currenttextcolor : white;
+        --bodybg : #333333;
+        --themecolor : white;
+    } 
+}
+.dark{
+
+    @include theme(dark)
+}
+.light{
+    @include theme(light)   
+}
+.red{
+    --themecolor : red;
+}
+.green{
+    --themecolor : green;
+}
+.blue{
+    --themecolor : blue;
+}
+
+
+
+// @mixin theme ($theme, $color:'') {
+//     @if $theme == 'light' {
+//         @if $color == ""{
+//             --currentbg : #EBEBEB;
+//             --currenttextcolor : #333333;
+//             --bodybg : #FCFCFC;
+//             --themecolor : #333333;
+//         }
+//         @else {
+//             --currentbg : #EBEBEB;
+//             --currenttextcolor : #333333;
+//             --bodybg : #FCFCFC;
+//             --themecolor : #{$color};
+//         } 
+//     }
+//     @else if $theme == 'dark' {
+//         @if $color == ""{
+//             --currentbg : #434343;
+//             --currenttextcolor : white;
+//             --bodybg : #333333;
+//             --themecolor : white;
+//         }
+//         @else {
+//             --currentbg : #434343;
+//             --currenttextcolor : white;
+//             --bodybg : #333333;
+//             --themecolor : #{$color};
+//         } 
+//     }
+    
+// }
+
+
+// .light-red{
+//     @include theme(light, red)
+// }
+// .light-green{
+//     @include theme(light,green)
+// }
+// .light-blue{
+//     @include theme(light,blue)
+// }
+
+// .dark-red{
+//     @include theme(dark , red)
+// }
+
+// .dark-green{
+//     @include theme(dark , green)
+// }
+// .dark-blue{
+//     @include theme(dark , blue)
+// }

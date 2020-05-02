@@ -1,0 +1,23 @@
+@mixin split(){
+    text-align: center;
+    max-height: 200px;
+    justify-content: center;
+    border: burlywood 1px solid;
+    overflow : hidden;
+}
+.splitbody1{
+    @include split;
+    color: cornflowerblue;
+}
+.splitbody2{
+    @include split;
+    color: rgb(217, 219, 60);
+}
+.splitbody3{
+    @include split;
+    color: rgb(172, 66, 40);
+}
+.splitbody4{
+    @include split;
+    color: rgb(107, 136, 60);
+}

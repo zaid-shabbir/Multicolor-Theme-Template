@@ -1,0 +1,12 @@
+.cardcolor{
+    background-color: var(--currentbg);
+    color: var(--currenttextcolor);
+    border : var(--currenttextcolor) 1px solid;
+}
+
+.tablecolor{
+    background-color: var(--currentbg);
+    color: var(--currenttextcolor);
+    border : var(--currenttextcolor) 1px solid;
+    border-top: var(--currenttextcolor);
+}
